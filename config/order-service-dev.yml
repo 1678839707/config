@@ -4,6 +4,10 @@ spring:
   cloud:
     config:
       override-none: true
+      service-id: config-server
+      name: order-service
+      profile: dev
+      
     
 #server:
 #  port: 8201

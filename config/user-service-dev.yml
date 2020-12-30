@@ -9,6 +9,10 @@ spring:
   cloud:
     config:
       override-none: true  # override 重载，覆盖  none 没有
+      service-id: config-server
+      name: user-service
+      profile: dev
+      
 #server:
 #  port: 8101
 
